@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    height: 100vh;
+}
+.part1 .grid {
+  display: flex;
+}
+.part1 h1 {
+  color: rgba(48, 103, 199, 1);
+  margin-top: 200px;
+}
+.part1 p {
+  font-size: 14px;
+}
+.part1 .g-col-6 img {
+  width: 80%;
+}
+.part1 span {
+  color: rgba(190, 55, 124, 1);
+}
+.part1 .design {
+  display: inline-flex;
+  gap: 20px;
+}
+.part2,
+.part3,
+.part4 {
+  margin-top: 70px;
+}
+.part2 h1,
+.part3 h1,
+.part4 h1,
+.part5 h1,
+.part6 h1,
+.part9 h1,
+.part11 h1, .part15 h1,
+.part13 h1 {
+  color: rgba(190, 55, 124, 1);
+}
+.part2 p,
+.part3 p,
+.part6 p,
+.part8 p {
+  width: 70%;
+}
+.part3 .vs {
+  background-color: rgba(0, 103, 162, 1);
+  border-radius: 100px;
+  width: 8%;
+  height: 100px;
+  text-align: center;
+}
+.part3 .vs img {
+  width: 40%;
+  margin-top: 30px;
+}
+.part3 h1,
+.part16 .conclude h1 {
+  color: rgba(190, 55, 124, 1);
+  margin-top: 70px;
+}
+.part3 .solution {
+  margin-left: 100px;
+}
+.part3 .container {
+  padding: 60px;
+  background-color: rgba(239, 234, 237, 1);
+}
+.part4 .grid {
+  display: flex;
+  gap: 28rem;
+  margin-top: 70px;
+}
+.part4 .grid .g-col-4 img,
+.part4 .grid .g-col-6 img {
+  width: 40%;
+}
+.part5 .grid {
+  display: flex;
+}
+.part5 .g-col-6 h1 {
+  margin-top: 100px;
+  font-size: 20px;
+}
+.part5 .g-col-6 {
+  width: 35%;
+  text-align: left;
+}
+.part5 .g-col-6 h1,
+.part16 .cha h1,
+.part6 .quan h1,
+.part8 h1,
+.cards h1,
+.part10 h1,
+.part11 h3,
+span,
+.part13 h3, .part17 h1,span, .part14 h1,
+.part14 h1 {
+  color: rgba(48, 103, 199, 1);
+}
+.part5 .g-col-6 img {
+  width: 100%;
+}
+.part7 img {
+  width: 20%;
+}
+.part8 .rec {
+  display: flex;
+  padding: 15px;
+}
+.part8 .rec img {
+  width: 2%;
+  height: 25px;
+}
+.part8 .rec p {
+  margin-left: 20px;
+}
+.part9 .grid {
+  display: flex;
+  gap: 20px;
+}
+.part10 .grid {
+  display: flex;
+  gap: 70px;
+}
+.part10,
+.part9,
+.part11,
+.part14,
+.part15 {
+  margin-top: 200px;
+}
+
+.card .card-body ul {
+  padding-left: 40px;
+}
+.part12 img, .part11 img, .part13 img, .part10 img{
+  width: 100%;
+}
+.part13 .btn {
+  width: 15%;
+  height: 100px;
+  color: white;
+  border-radius: 20px;
+}
+#bt1 {
+  background-color: #be377c;
+}
+#bt2 {
+  background-color: #3067c7;
+}
+#bt3 {
+  background-color: #fefefe;
+  color: black;
+}
+#bt4 {
+  background-color: #393639;
+}
+#bt5 {
+  background-color: #151415;
+}
+.part14 img,
+.part15 img {
+  width: 100%;
+}
+.part16 .conclude,
+.cha {
+  width: 60%;
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+    .part9 .cards .grid, .part4 .grid, .part1 .grid, .part5 .grid{
+        flex-direction: column !important;
+    }
+    .part9 img, .part13 button{
+        width: 100% !important;
+    }
+    .part2 p, .part3 .problem p, .solution p,{
+        width: 100% !important;
+    }
+    .part5 .g-col-6 p, .part16 p{
+        width: 170% !important;
+    }
+}
